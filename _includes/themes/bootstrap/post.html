@@ -5,15 +5,15 @@
 <div class="row post-full">
   <div class="col-md-12">
     <div class="date">
-      <span>{{ page.date | date_to_long_string }}</span>
+      <h3>{{ page.date | date_to_long_string }}</h3>
     </div>
     <div class="content">
       {{ content }}
     </div>
-
+    <hr>
     {% unless page.categories == empty %}
       <ul class="tag_box inline">
-        <li><i class="icon-folder-open"></i></li>
+        <li style="list-style: none; margin-left: -40px;"><i class="glyphicon glyphicon-folder-open"></i></li>
         {% assign categories_list = page.categories %}
         {% include JB/categories_list %}
       </ul>
@@ -21,7 +21,7 @@
 
     {% unless page.tags == empty %}
       <ul class="tag_box inline">
-        <li><i class="icon-tags"></i></li>
+        <li style="list-style: none; margin-left: -40px;"><i class="glyphicon glyphicon-tags"></i></li>
         {% assign tags_list = page.tags %}
         {% include JB/tags_list %}
       </ul>
@@ -42,7 +42,7 @@
         <li class="next disabled"><a>Next &rarr;</a>
       {% endif %}
     </ul>
-    <hr>
-    {% include JB/comments %}
+    <!-- <hr> -->
+    <!-- {% include JB/comments %} -->
   </div>
 </div>

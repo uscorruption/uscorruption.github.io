@@ -8,7 +8,7 @@
     <meta name="author" content="{{ site.author.name }}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="{{ ASSET_PATH }}/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ ASSET_PATH }}/bootstrap/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   
     <!--[if lt IE 9]>
       <script src="{{ ASSET_PATH }}/resources/respond/Respond.min.js"></script>
@@ -16,7 +16,7 @@
 
     <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
     <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
-
+    <link href="{{ ASSET_PATH }}/main.css" rel="stylesheet">
   </head>
 
   <body>
@@ -47,17 +47,12 @@
       <footer>
         <p>
           &copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
-          <span class="pull-right text-muted">
-            powered by
-            <a href="http://dbtek.github.io/jekyll-bootstrap-3" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll-Bootstrap-3</a>
-            and <a href="http://getbootstrap.com" target="_blank">Twitter Bootstrap 3.0.3</a>
-          </span>
         </p>
       </footer>
     </div>
 
     {% include JB/analytics %}
-    <script src="{{ ASSET_PATH }}/resources/jquery/jquery.min.js"></script>
-    <script src="{{ ASSET_PATH }}/resources/bootstrap/js/bootstrap.min.js"></script>
+    <script src="{{ ASSET_PATH }}/bootstrap/resources/jquery/jquery.min.js"></script>
+    <script src="{{ ASSET_PATH }}/bootstrap/resources/bootstrap/js/bootstrap.min.js"></script>
   </body>
 </html>
