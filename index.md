@@ -16,15 +16,14 @@ When making a new file, place it in the `_posts` folder and follow the naming co
 `YYYY-MM-DD-Post-title.md`
 
 Include this in the top of the file, replacing information as necessary.
-```
----
-layout: post
-categories: Assange
-title: Assange is Dead, March on DC
-tagline: Assange Outlines Treason
-tags: [Assange, WikiLeaks, FBI, Clinton]
----
-```
+
+    ---
+    layout: post
+    categories: Assange
+    title: Assange is Dead, March on DC
+    tagline: Assange Outlines Treason
+    tags: [Assange, WikiLeaks, FBI, Clinton]
+    ---
 
 Simply begin your post on the line below the final set of dashes.
 
