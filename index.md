@@ -17,6 +17,7 @@ When making a new file, place it in the `_posts` folder and follow the naming co
 
 Include this in the top of the file, replacing information as necessary.
 
+
     ---
     layout: post
     categories: Assange
@@ -24,6 +25,7 @@ Include this in the top of the file, replacing information as necessary.
     tagline: Assange Outlines Treason
     tags: [Assange, WikiLeaks, FBI, Clinton]
     ---
+
 
 Simply begin your post on the line below the final set of dashes.
 
