@@ -1,37 +1,24 @@
-# Jekyll-Bootstrap-3
+# [US Corruption](https://uscorruption.github.io)
 
-Easily publish Bootstrap 3 powered Jekyll sites.  
-Fork of the well known jekyll-bootstrap (v0.3.0). Original project is [here](https://github.com/plusjade/jekyll-bootstrap).  
-The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages.  
-
-## Usage
-
-### 1. Create a Repo
-- Go to <https://github.com> and create a new repository named *USERNAME.github.io*  
-
-### 2. Install Jekyll-Bootstrap-3  
-<pre>
-  <code>
-    $ git clone https://github.com/dbtek/jekyll-bootstrap-3 USERNAME.github.io
-    $ cd USERNAME.github.com
-    $ git remote set-url origin git@github.com:USERNAME/USERNAME.github.io.git
-    $ git push origin master  
-  </code>
-</pre>  
-### 3. Enjoy !
-- After giving 10 mins to GitHub of course.  
-
-For original project's usage and documentation please see: <http://jekyllbootstrap.com>  
+## [Please help contribute!](https://github.com/uscorruption/uscorruption.github.io)
 
 
-### Themes
+This website uses standard markdown as well as HTML, meaning you can copy your Reddit post and commit it.
 
-Quickly install and use lovely themes with Jekyll Bootstrap 3. Visit [theme gallery](http://jekyll-bootstrap-3.github.io/preview).
+I'd like to ultimately make a release daily, but that depends on how busy the commits are coming in and any merging issues we run into.
 
-## License
+When making a new file, place it in the `_posts` folder and follow the naming conventions:
 
-[MIT](http://opensource.org/licenses/MIT)
+`YYYY-MM-DD-Post-title.md`
 
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/dbtek/jekyll-bootstrap-3/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
+Include this in the top of the file, replacing information as necessary.
+```
+---
+layout: post
+categories: Assange
+title: Assange is Dead, March on DC
+tagline: Assange Outlines Treason
+tags: [Assange, WikiLeaks, FBI, Clinton]
+---
+```
+Simply begin your post on the line below the final set of dashes.
