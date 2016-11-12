@@ -9,5 +9,6 @@ http://uscorruption.github.io/rss.xml
 http://uscorruption.github.io/sitemap.txt
 http://uscorruption.github.io/tags
 
+http://uscorruption.github.io/soros/2016/11/12/the-soros-clip
 http://uscorruption.github.io/doj/2016/11/06/pedo-ring-busted
 http://uscorruption.github.io/assange/2016/11/06/assange-is-dead
